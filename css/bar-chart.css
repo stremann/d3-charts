@@ -1,0 +1,42 @@
+.BC-container {
+    width: 960px;
+    height: 584px;
+    margin: 12px auto;
+}
+
+.BC-container__header {
+    font-family: 'Arial Black', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #464547;
+}
+
+.BC-container__bar {
+    fill: #39C2D7;
+}
+
+.BC-container__bar:hover {
+    fill: #A3C644;
+    cursor: pointer;
+}
+
+.BC-container__axis {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 12px;
+}
+
+.BC-container__axis path {
+    fill: none;
+    stroke: #464547;
+    shape-rendering: crispEdges;
+}
+
+.BC-container__axis line {
+    stroke: #464547;
+    shape-rendering: crispEdges;
+}
+
+.BC-container__axis text {
+    fill: #464547;
+    text-transform: uppercase;
+}

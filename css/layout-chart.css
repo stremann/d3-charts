@@ -1,0 +1,58 @@
+.LC-container {
+    width: 1290px;
+    height: 584px;
+    margin: 12px auto;
+}
+
+.LC-container__header {
+    font-family: 'Arial Black', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #464547;
+}
+
+.LC-container__axis {
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+}
+
+.LC-container__axis path {
+    display: none;
+}
+
+.LC-container__axis line {
+    stroke: #464547;
+    shape-rendering: crispEdges;
+}
+
+.LC-histogram__bar rect:hover {
+    fill: #A3C644;
+    cursor: pointer;
+}
+
+.LC-pieCart path:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.LC-legend {
+    display: inline-block;
+    margin-bottom: 76px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.LC-legend tr {
+    border-bottom: 1px solid #999999;
+}
+
+.LC-legend td {
+    padding: 4px 5px;
+    vertical-align: bottom;
+    text-transform: uppercase;
+}
+
+.LC-legend__data {
+    width: 50px;
+    text-align: right;
+}
